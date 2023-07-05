@@ -20,6 +20,7 @@ public class Base_test implements Framework_const
 	 driver=new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.facebook.com/");
+	//it is used to luanch the brow
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 	}
